@@ -250,10 +250,10 @@ const Hero: React.FC = () => {
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-none">
               <span className="block bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 drop-shadow-2xl">
-                Fernandes
+                Guillaume
               </span>
               <span className="block text-white drop-shadow-2xl">
-                Sébastien
+                MORVAN
               </span>
             </h1>
             
