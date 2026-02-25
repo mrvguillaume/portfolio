@@ -13,12 +13,12 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-sm">© {currentYear} Portfolio BTS SIO SISR - Sébastien Fernandes</p>
+            <p className="text-sm">© {currentYear} Portfolio BTS SIO SISR - MORVAN Guillaume</p>
           </div>
           
           <div className="flex space-x-6">
             <a 
-              href="https://github.com/CapitaineRick" 
+              href="https://github.com/mrvguillaume" 
               className="text-gray-500 hover:text-orange-500 transition-colors"
               aria-label="GitHub"
               target="_blank"
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://www.linkedin.com/in/s%C3%A9bastien-fernandes-566008232/" 
+              href="www.linkedin.com/in/g-morvan" 
               className="text-gray-500 hover:text-orange-500 transition-colors"
               aria-label="LinkedIn"
               target="_blank"
