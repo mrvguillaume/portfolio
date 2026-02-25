@@ -101,7 +101,7 @@ const About: React.FC = () => {
                   {/* Personal Info */}
                   <div className="text-center mb-6">
                     <h3 className="text-xl sm:text-2xl font-bold mb-2 text-white">
-                      Fernandes Sébastien
+                      MORVAN Guillaume
                     </h3>
                     <p className="text-orange-400 font-medium text-sm sm:text-base">
                       Étudiant en BTS SIO SISR
@@ -114,17 +114,17 @@ const About: React.FC = () => {
                       <div className="p-2 bg-orange-900/30 rounded-lg flex-shrink-0">
                         <MapPin className="w-4 h-4 text-orange-500" />
                       </div>
-                      <span className="break-words">Versailles, France</span>
+                      <span className="break-words">Brest, France</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm text-gray-300">
                       <div className="p-2 bg-orange-900/30 rounded-lg flex-shrink-0">
                         <Mail className="w-4 h-4 text-orange-500" />
                       </div>
                       <a
-                        href="mailto:sebastien.78.fernandes@outlook.fr"
+                        href="mailto:g.morvan35pro@gmail.com"
                         className="hover:text-orange-500 break-all"
                       >
-                        sebastien.78.fernandes@outlook.fr
+                        g.morvan35pro@gmail.com
                       </a>
                     </div>
                     <div className="flex items-center gap-3 text-sm text-gray-300">
@@ -132,12 +132,12 @@ const About: React.FC = () => {
                         <Globe className="w-4 h-4 text-orange-500" />
                       </div>
                       <a
-                        href="https://github.com/CapitaineRick"
+                        href="https://github.com/mrvguillaume"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-orange-500 break-all"
                       >
-                        github.com/CapitaineRick
+                        github.com/mrvguillaume
                       </a>
                     </div>
                   </div>
