@@ -1,15 +1,15 @@
 export const projectsData = {
-  enterprise: [
+  enterprise: [ 
+  ],
+  school: [
     {
       id: 'active-directory',
       title: 'Zentyal',
-      description: 'Stage de première année, support utilisateur, infographie du parc et administration système',
-      image: '/images/knds-logo.webp',
+      description: '',
+      image: '/images/zentyal.png',
       pdfUrl: '',
       tags: ['Gestion de parc', 'VoIP/ToIP', 'AVAYA', 'Support']
     },
-  ],
-  school: [
     {
       id: 'Proxmox',
       title: 'Proxmox',
@@ -68,9 +68,33 @@ export const projectsData = {
     },
     {
       id: 'Ticketing',
-      title: 'GLPI',
-      description: 'Installation et configuration GLPI',
+      title: 'GLPI CLIENT',
+      description: 'Installation et configuration GLPI client',
       image: '/images/logo-glpi.webp',
+      pdfUrl: '',
+      tags: ['Support', 'Inventaire']
+    },
+     {
+      id: 'Ticketing',
+      title: 'GLPI SERVER',
+      description: 'Installation et configuration GLPI SERVER',
+      image: '/images/logo-glpi.webp',
+      pdfUrl: '',
+      tags: ['Support', 'Inventaire']
+    },
+    {
+      id: 'NAS',
+      title: 'Synology NAS',
+      description: 'Installation et configuration de Synology NAS',
+      image: '/images/synology.png',
+      pdfUrl: '',
+      tags: ['Support', 'Inventaire']
+    },
+    {
+      id: 'Environnement Cyber',
+      title: 'Environnement cyber',
+      description: 'Conception et administration d’un environnement dédié au pentesting et à la cybersécurité',
+      image: '/images/reseau.png',
       pdfUrl: '',
       tags: ['Support', 'Inventaire']
     },
