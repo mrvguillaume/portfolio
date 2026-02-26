@@ -160,7 +160,7 @@ const About: React.FC = () => {
                     </div>
                     <div className="bg-gray-700/50 rounded-xl p-3 sm:p-4 text-center">
                       <div className="text-xl sm:text-2xl font-bold text-orange-500">
-                        -
+                        2
                       </div>
                       <div className="text-xs sm:text-sm text-gray-400">
                         Certifications
@@ -168,7 +168,7 @@ const About: React.FC = () => {
                     </div>
                     <div className="bg-gray-700/50 rounded-xl p-3 sm:p-4 text-center">
                       <div className="text-xl sm:text-2xl font-bold text-orange-500">
-                        2
+                        1
                       </div>
                       <div className="text-xs sm:text-sm text-gray-400">Expérience professionnelle</div>
                     </div>
@@ -176,7 +176,7 @@ const About: React.FC = () => {
 
                   {/* Download CV Button */}
                   <a
-                    href="/public/docs/fernandes-sebastien-cv.pdf"
+                    href="/public/docs/cv.pdf"
                     target="_blank"
                     className="w-full mt-6 px-4 sm:px-6 py-3 bg-gradient-to-r from-orange-500 to-purple-500 text-white rounded-xl flex items-center justify-center gap-2 hover:opacity-90 transition-opacity text-sm sm:text-base"
                   >
@@ -204,17 +204,15 @@ const About: React.FC = () => {
 
                   <div className="space-y-4">
                     <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-                      Je suis un étudiant passionné en BTS SIO avec une
-                      spécialisation en SISR à l'IPSSI de Saint Quentin en
-                      Yvelines. Ma formation me permet d'acquérir des
-                      compétences techniques solides dans la conception, le
-                      déploiement et la maintenance d'infrastructures
-                      informatiques.
+                      Je suis un étudiant en BTS SIO avec une
+                      spécialisation en SISR à PBA Brest. Ma formation me permet d'acquérir des
+                      compétences dans la conception d'un environnement réseau, le
+                      déploiement, l'administration et la maintenance d'infrastructures
+                      réseau.
                     </p>
                     <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
-                      Mon objectif est de devenir administrateur systèmes &
-                      réseaux ou dans plusieurs années pentester, en mettant à
-                      profit ma rigueur, ma logique et mon autonomie.
+                      Mon projet académique est de poursuivre mes études en BUT pour ensuite intégrer une école d'ingénieur en cybersécurité. 
+                      A la suite de mon projet académique, je souhaite travaillé dans le domaine de la cybersécurité en tant que rétro-ingénieur.
                     </p>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mt-6">
@@ -225,16 +223,16 @@ const About: React.FC = () => {
                         <ul className="space-y-3">
                           <li className="flex items-center gap-3">
                             <div className="w-2 h-2 rounded-full bg-orange-500 flex-shrink-0"></div>
-                            <span className="text-gray-300 text-sm sm:text-base">Autonomie</span>
+                            <span className="text-gray-300 text-sm sm:text-base">Autonomie, notemment lors de projets professionnelles</span>
                           </li>
                           <li className="flex items-center gap-3">
                             <div className="w-2 h-2 rounded-full bg-orange-500 flex-shrink-0"></div>
-                            <span className="text-gray-300 text-sm sm:text-base">Rigueur</span>
+                            <span className="text-gray-300 text-sm sm:text-base">Travail en mode projet, lors de la conception d'un environnement dédié à la cybersécurité</span>
                           </li>
                           <li className="flex items-center gap-3">
                             <div className="w-2 h-2 rounded-full bg-orange-500 flex-shrink-0"></div>
                             <span className="text-gray-300 text-sm sm:text-base">
-                              Esprit d'équipe
+                              Passioné par les nouvelles technologies
                             </span>
                           </li>
                           <li className="flex items-center gap-3">
@@ -264,13 +262,13 @@ const About: React.FC = () => {
                           <li className="flex items-center gap-3">
                             <div className="w-2 h-2 rounded-full bg-purple-500 flex-shrink-0"></div>
                             <span className="text-gray-300 text-sm sm:text-base">
-                              Impressions 3D
+                              Géopolitique
                             </span>
                           </li>
                           <li className="flex items-center gap-3">
                             <div className="w-2 h-2 rounded-full bg-purple-500 flex-shrink-0"></div>
                             <span className="text-gray-300 text-sm sm:text-base">
-                              Volley-ball
+                              Culturisme
                             </span>
                           </li>
                         </ul>
@@ -326,7 +324,7 @@ const About: React.FC = () => {
                           </p>
                           {education.id === "bts-sio" && (
                             <a
-                              href=""
+                              href="/public/docs/synthese.pdf"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="inline-flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-2 mt-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 text-xs sm:text-sm"
@@ -358,23 +356,6 @@ const About: React.FC = () => {
 
                     {/* Past Education Toggle */}
                     <div className="relative pl-8 sm:pl-16">
-                      <button
-                        onClick={() => setShowPastEducation(!showPastEducation)}
-                        className="flex items-center gap-2 text-gray-400 hover:text-orange-500 transition-colors text-sm sm:text-base"
-                      >
-                        {showPastEducation ? (
-                          <>
-                            <ChevronUp size={16} className="sm:w-5 sm:h-5" />
-                            <span>Masquer les formations non terminées</span>
-                          </>
-                        ) : (
-                          <>
-                            <ChevronDown size={16} className="sm:w-5 sm:h-5" />
-                            <span>Afficher les formations non terminées</span>
-                          </>
-                        )}
-                      </button>
-
                       {showPastEducation && (
                         <div className="mt-8 space-y-8">
                           {incompleteEducation.map((education) => (

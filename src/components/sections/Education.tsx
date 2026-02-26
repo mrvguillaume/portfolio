@@ -79,11 +79,11 @@ const Education: React.FC = () => {
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle2 className="w-4 h-4 text-orange-500" />
-                      <span>10 semaines de stage minimum</span>
+                      <span>700 heures d'entreprises dont 350 par ans</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle2 className="w-4 h-4 text-orange-500" />
-                      <span>Alternance possible</span>
+                      <span>En alternance</span>
                     </li>
                   </ul>
                 </div>
@@ -181,6 +181,10 @@ const Education: React.FC = () => {
                         <ChevronRight className="w-4 h-4 text-orange-500" />
                         <span>Politique de sécurité</span>
                       </li>
+                      <li className="flex items-center gap-2">
+                        <ChevronRight className="w-4 h-4 text-orange-500" />
+                        <span>Analyse d'un réseau</span>
+                      </li>
                     </ul>
                   </div>
 
@@ -226,6 +230,14 @@ const Education: React.FC = () => {
                   <div className="bg-gray-700/50 p-4 rounded-lg">
                     <h5 className="font-medium mb-2 text-white">Compétences techniques</h5>
                     <div className="grid grid-cols-2 gap-2">
+                      <div className="flex items-center gap-2 text-sm text-gray-300">
+                        <ChevronRight className="w-4 h-4 text-orange-500" />
+                        <span>Création d'une salle réseau LAN</span>
+                       </div> 
+                      <div className="flex items-center gap-2 text-sm text-gray-300">
+                        <ChevronRight className="w-4 h-4 text-orange-500" />
+                        <span>Administration Windows</span>
+                       </div> 
                       <div className="flex items-center gap-2 text-sm text-gray-300">
                         <ChevronRight className="w-4 h-4 text-orange-500" />
                         <span>Administration Windows</span>
