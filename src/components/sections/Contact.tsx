@@ -192,10 +192,10 @@ const handleSubmit = (e: React.FormEvent) => {
                       <div>
                         <h4 className="text-lg font-medium text-white">Email</h4>
                         <a 
-                          href="mailto:sebastien.78.fernandes@outlook.fr"
+                          href="mailto:g.morvan35pro@gmail.com"
                           className="text-orange-400 hover:underline"
                         >
-                          sebastien.78.fernandes@outlook.fr
+                          g.morvan35pro@gmail.com
                         </a>
                       </div>
                     </div>
@@ -207,12 +207,12 @@ const handleSubmit = (e: React.FormEvent) => {
                       <div>
                         <h4 className="text-lg font-medium text-white">LinkedIn</h4>
                         <a 
-                          href="https://www.linkedin.com/in/s%C3%A9bastien-fernandes-566008232/"
+                          href="www.linkedin.com/in/g-morvan"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-orange-400 hover:underline"
                         >
-                          linkedin.com/in/sébastien-fernandes
+                          linkedin.com/in/guillaume morvan
                         </a>
                       </div>
                     </div>

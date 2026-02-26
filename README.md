@@ -62,7 +62,7 @@ Ce projet nécessite :
 Cloner le dépôt et installer les dépendances :
 
 ```bash
-git clone https://github.com/CapitaineRick/Portfolio
+git clone https://github.com/mrvguillaume/Portfolio
 cd Portfolio
 npm install
 ```
