@@ -8,7 +8,7 @@ export const projectsData = {
       description: '',
       image: '/images/zentyal.png',
       pdfUrl: '',
-      tags: ['Gestion de parc', 'VoIP/ToIP', 'AVAYA', 'Support']
+      tags: ['Gestion de parc','Support']
     },
     {
       id: 'Proxmox',
@@ -88,7 +88,7 @@ export const projectsData = {
       description: 'Installation et configuration de Synology NAS',
       image: '/images/synology.png',
       pdfUrl: '',
-      tags: ['Support', 'Inventaire']
+      tags: ['Inventaire']
     },
     {
       id: 'Environnement Cyber',
@@ -96,7 +96,7 @@ export const projectsData = {
       description: 'Conception et administration d’un environnement dédié au pentesting et à la cybersécurité',
       image: '/images/reseau.png',
       pdfUrl: '',
-      tags: ['Support', 'Inventaire']
+      tags: ['Projet majeur']
     },
   ]
 };
