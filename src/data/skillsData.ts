@@ -55,7 +55,7 @@ export const skillsData = [
       },
       {
         name: 'VirtualBox',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Virtualbox_logo.png',
+        logo: '/public/images/virtualbox.png',
         level: 2,
         description: 'Virtualisation d’OS pour tests, TP et simulations. Création de réseaux internes et machines de test.'
       },
