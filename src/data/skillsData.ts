@@ -9,7 +9,7 @@ export const skillsData = [
         name: 'Windows Server',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/2048px-Windows_logo_-_2012.svg.png',
         level: 2,
-        description: 'Compétence acquise en BTS SIO SISR via des TP et projets. Installation et configuration de services AD DS, DNS et DHCP sur des VM simulées.'
+        description: 'Compétence acquise en BTS SIO SISR via des TP et projets.'
       },
       {
         name: 'Windows 11',
@@ -105,7 +105,7 @@ export const skillsData = [
         name: 'PowerShell',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/PowerShell_5.0_icon.png/600px-PowerShell_5.0_icon.png',
         level: 1,
-        description: 'Utilisé pour automatiser des tâches Windows (création dutilisateurs, export CSV) dans des environnements de TP.'
+        description: 'Utilisé pour automatiser des tâches Windows dans des environnements de TP.'
       },
       {
         name: 'Ansible',
