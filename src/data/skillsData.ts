@@ -93,10 +93,10 @@ export const skillsData = [
         name: 'Bash',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/1200px-Bash_Logo_Colored.svg.png',
         level: 2,
-        description: 'Scripting Linux appris en TP et projets perso : automatisation de sauvegardes, tâches CRON, installation de paquets.'
+        description: 'Scripting Linux appris en projets : configuration d’une image, installation de paquets.'
       },
       {
-        name: 'Python',
+        name: 'Python',’
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
         level: 2,
         description: 'Développement de petits outils/scripts. Appris en autoformation et utilisé dans des projets de traitement de données ou outils réseau.'
@@ -105,7 +105,7 @@ export const skillsData = [
         name: 'PowerShell',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/PowerShell_5.0_icon.png/600px-PowerShell_5.0_icon.png',
         level: 1,
-        description: 'Utilisé pour automatiser des tâches Windows (création d’utilisateurs, export CSV) dans des environnements de TP.'
+        description: 'Utilisé pour automatiser des tâches Windows (création dutilisateurs, export CSV) dans des environnements de TP.'
       },
       {
         name: 'Ansible',
