@@ -12,7 +12,6 @@ Points clés observés :
 - Remédiation immédiate : Le CERT-FR préconise l'arrêt des services exposés et le downgrade (retour arrière) immédiat vers une version saine de la bibliothèque (ex: 5.4.6).
 
 Impact pour les infrastructures :
-Gemini a dit
 L'impact majeur est une perte totale de contrôle de l'infrastructure, permettant à un attaquant d'obtenir un accès ROOT indétectable sur les serveurs Linux exposés pour exfiltrer des données ou paralyser le réseau.`,
     image: "/public/images/anssi.png",
     date: "Avril 2025",
