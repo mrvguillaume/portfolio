@@ -96,10 +96,10 @@ export const skillsData = [
         description: 'Scripting Linux appris en projets : configuration d’une image, installation de paquets.'
       },
       {
-        name: 'Python',’
+        name: 'Python',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
         level: 2,
-        description: 'Développement de petits outils/scripts. Appris en autoformation et utilisé dans des projets de traitement de données ou outils réseau.'
+        description: 'Développement de petits outils/scripts.'
       },
       {
         name: 'PowerShell',
