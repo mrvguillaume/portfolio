@@ -16,8 +16,8 @@ export const educationData: Education[] = [
   {
     id: 'bts-sio',
     title: 'BTS SIO – Option SISR',
-    school: 'SIO, Brest',
-    logo: '/images/bts.png',
+    school: '',
+    logo: '',
     period: '2024–2026',
     description: 'Brevet de Technicien Supérieur Services Informatiques aux Organisations, spécialité Solutions d’Infrastructure, Systèmes et Réseaux. Formation orientée administration réseau, cybersécurité et gestion de systèmes d’information.',
     status: 'ongoing',

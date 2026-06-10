@@ -114,7 +114,7 @@ const About: React.FC = () => {
                       <div className="p-2 bg-orange-900/30 rounded-lg flex-shrink-0">
                         <MapPin className="w-4 h-4 text-orange-500" />
                       </div>
-                      <span className="break-words">Brest, France</span>
+                      <span className="break-words">France</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm text-gray-300">
                       <div className="p-2 bg-orange-900/30 rounded-lg flex-shrink-0">
@@ -154,13 +154,13 @@ const About: React.FC = () => {
                     </div>
                     <div className="bg-gray-700/50 rounded-xl p-3 sm:p-4 text-center">
                       <div className="text-xl sm:text-2xl font-bold text-orange-500">
-                        15+
+                        3
                       </div>
                       <div className="text-xs sm:text-sm text-gray-400">Projets</div>
                     </div>
                     <div className="bg-gray-700/50 rounded-xl p-3 sm:p-4 text-center">
                       <div className="text-xl sm:text-2xl font-bold text-orange-500">
-                        2
+                        3
                       </div>
                       <div className="text-xs sm:text-sm text-gray-400">
                         Certifications
@@ -212,7 +212,7 @@ const About: React.FC = () => {
                     </p>
                     <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                       Mon projet académique est de poursuivre mes études en BUT pour ensuite intégrer une école d'ingénieur en cybersécurité. 
-                      A la suite de mon projet académique, je souhaite travaillé dans le domaine de la cybersécurité en tant que rétro-ingénieur.
+                      A la suite de mon projet académique, je souhaite travaillé dans le domaine de la cybersécurité.
                     </p>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mt-6">
@@ -256,12 +256,6 @@ const About: React.FC = () => {
                           <li className="flex items-center gap-3">
                             <div className="w-2 h-2 rounded-full bg-purple-500 flex-shrink-0"></div>
                             <span className="text-gray-300 text-sm sm:text-base">
-                              Nouvelles technologies
-                            </span>
-                          </li>
-                          <li className="flex items-center gap-3">
-                            <div className="w-2 h-2 rounded-full bg-purple-500 flex-shrink-0"></div>
-                            <span className="text-gray-300 text-sm sm:text-base">
                               Géopolitique
                             </span>
                           </li>
@@ -301,11 +295,6 @@ const About: React.FC = () => {
                         <div className="bg-blue-900/20 rounded-xl p-4 sm:p-6">
                           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-4">
                             <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-                              <img
-                                src={education.logo}
-                                alt={education.school}
-                                className="w-16 h-auto sm:w-24"
-                              />
                               <div>
                                 <h4 className="text-lg sm:text-xl font-bold text-white">
                                   {education.title}
