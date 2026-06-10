@@ -21,7 +21,7 @@ export const skillsData = [
         name: 'Linux',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png',
         level: 2,
-        description: 'Dans le cadre du projet salle cyber BTS : installation/configuration sur Debian, kali et Ubuntu. Expérience sur des environnements virtualisés.'
+        description: 'Dans le cadre du projet salle cyber BTS : installation/configuration sur Debian et Ubuntu. Expérience sur des environnements virtualisés.'
       },
       {
         name: 'GLPI',
@@ -33,8 +33,20 @@ export const skillsData = [
         name: 'Active Directory',
         logo: 'https://cdn-icons-png.flaticon.com/512/2784/2784487.png',
         level: 1,
-        description: 'Manipulation dans pour le projet de la salle. Création, comptes, groupes, stratégies de sécurité et GPO.'
-      }
+        description: 'Manipulation pour le projet de la salle. Création, comptes, groupes, stratégies de sécurité et GPO.'
+      },
+            {
+        name: 'FOG Project',
+        logo: '',
+        level: 2,
+        description: 'Déploiement automatisé, installé et utilisé lors de la conception du la salle.'
+      },
+            {
+        name: 'Configuration BIOS',
+        logo: '',
+        level: 2,
+        description: 'Nécessité de configuration pour autoriser le Wake on LAN et le déploiement avec FOG Project.'
+      },
     ]
   },
   {
@@ -60,28 +72,10 @@ export const skillsData = [
         description: 'Virtualisation d’OS pour tests, TP et simulations. Création de réseaux internes et machines de test.'
       },
       {
-        name: 'DHCP',
-        logo: 'https://cdn-icons-png.flaticon.com/512/9354/9354390.png',
-        level: 1,
-        description: 'Configuration du DHCP sur mikrotik, Cisco, Zentyal et Ubuntu'
-      }
-    ]
-  },
-  {
-    name: 'Cybersécurité des services informatiques',
-    icon: Shield,
-    skills: [
-      {
-        name: 'Wireshark',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wireshark_icon.svg/1200px-Wireshark_icon.svg.png',
+        name: 'Mikrotik',
+        logo: '/public/images/mikrotik.png',
         level: 2,
-        description: 'Utilisé pour analyser le trafic réseau dans le cadre de TP sécurité au BTS. Observation de trames, détection d’anomalies.'
-      },
-      {
-        name: 'Kali Linux',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kali-dragon-icon.svg/2048px-Kali-dragon-icon.svg.png',
-        level: 1,
-        description: 'Autoformation à l’éthique hacking. Tests basiques (Nmap, reconnaissance réseau) dans des environnements isolés.'
+        description: 'Configuration de routeur et switchs mikrotik.'
       },
     ]
   },
@@ -107,30 +101,6 @@ export const skillsData = [
         level: 1,
         description: 'Utilisé pour automatiser des tâches Windows dans des environnements de TP.'
       },
-      {
-        name: 'Ansible',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1200px-Ansible_logo.svg.png',
-        level: 0,
-        description: 'En cours d’apprentissage. Découverte de la configuration automatisée via YAML et playbooks.'
-      }
     ]
   },
-  {
-    name: 'Distributions Linux',
-    icon: Terminal,
-    skills: [
-      {
-        name: 'Ubuntu Linux',
-        logo: '/public/images/Ubuntu-Logo.webp',
-        level: 2,
-        description: 'Utilisation poussée au sein du projet de la salle. Installation manuelle, configuration fine, scripts de configuration. Installation des services majeurs.'
-      },
-      {
-        name: 'Kali',
-        logo: '/public/images/kali-logo.webp',
-        level: 2,
-        description: 'Utilisé comme outil de surveillance et de protection au sein de la salle cyber.'
-      }
-    ]
-  }
 ];
