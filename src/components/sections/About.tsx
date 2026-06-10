@@ -313,7 +313,7 @@ const About: React.FC = () => {
                           </p>
                           {education.id === "bts-sio" && (
                             <a
-                              href="/public/docs/synthese.pdf"
+                              href="/docs/synthese.pdf"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="inline-flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-2 mt-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 font-medium shadow-lg hover:shadow-xl transform hover:scale-105 text-xs sm:text-sm"
