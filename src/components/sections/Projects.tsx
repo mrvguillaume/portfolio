@@ -68,7 +68,11 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects" className="py-16 flex items-center justify-center relative overflow-hidden">
-     {/* Projet principal */}
+      {/* Éléments flottants décoratifs */}
+      <div className="floating-elements"></div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        {/* Projet principal */}
     <div className="mb-20">
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
@@ -89,10 +93,6 @@ const Projects: React.FC = () => {
     ))}
      </div>
   </div>
-      {/* Éléments flottants décoratifs */}
-      <div className="floating-elements"></div>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-purple-600">
             Mes réalisations
