@@ -23,7 +23,7 @@ export const projectsData = {
       title: 'OpenVPN',
       description: 'Installation et conifguration de OpenVPN',
       image: '/images/openvpn.jpg',
-      pdfUrl: '',
+      pdfUrl: '/docs/doc openVPN.pdf',
       tags: ['Gestion de parc','Support']
     },
   ],
