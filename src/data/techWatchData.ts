@@ -16,7 +16,7 @@ L'impact majeur est une perte totale de contrôle de l'infrastructure, permettan
     image: "/public/images/anssi.png",
     date: "Avril 2025",
     tags: ["ANSSI", "Cybersécurité"],
-    url: "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2024-ACT-035/",
+    url: "/images/anssi.png",
     category: "Cybersécurité"
   },
   {
