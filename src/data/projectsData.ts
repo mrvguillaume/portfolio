@@ -19,7 +19,7 @@ export const projectsData = {
   ],
   school: [
     {
-      id: 'active-directory',
+      id: 'Zentyal',
       title: 'Zentyal',
       description: '',
       image: '/images/zentyal.png',
