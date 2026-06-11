@@ -7,19 +7,19 @@ export const skillsData = [
     skills: [
       {
         name: 'Windows Server',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/2048px-Windows_logo_-_2012.svg.png',
+        logo: '/public/images/wserver.jpg',
         level: 2,
         description: 'Compétence acquise en BTS SIO SISR via des TP et projets.'
       },
       {
         name: 'Windows 11',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/2048px-Windows_logo_-_2012.svg.png',
+        logo: '/public/images/windows.png',
         level: 2,
         description: 'Expérience personnelle et en environnement de test. Installation, configuration système, gestion des comptes utilisateurs et dépannage.'
       },
       {
         name: 'Linux',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png',
+        logo: '/public/images/linux.jpg',
         level: 2,
         description: 'Dans le cadre du projet salle cyber BTS : installation/configuration sur Debian et Ubuntu. Expérience sur des environnements virtualisés.'
       },
@@ -31,19 +31,19 @@ export const skillsData = [
       },
       {
         name: 'Active Directory',
-        logo: 'https://cdn-icons-png.flaticon.com/512/2784/2784487.png',
+        logo: '/public/images/ad.png',
         level: 1,
         description: 'Manipulation pour le projet de la salle. Création, comptes, groupes, stratégies de sécurité et GPO.'
       },
             {
         name: 'FOG Project',
-        logo: '',
+        logo: '/public/images/fog.png',
         level: 2,
         description: 'Déploiement automatisé, installé et utilisé lors de la conception du la salle.'
       },
             {
         name: 'Configuration BIOS',
-        logo: '',
+        logo: '/public/images/bios.jpg',
         level: 2,
         description: 'Nécessité de configuration pour autoriser le Wake on LAN et le déploiement avec FOG Project.'
       },
@@ -61,7 +61,7 @@ export const skillsData = [
       },
       {
         name: 'Cisco',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png',
+        logo: '/public/images/cisco.png',
         level: 2,
         description: 'TP sur Packet Tracer en BTS SIO SISR : configuration de routeurs, VLAN, adressage IP, routage statique/dynamique.'
       },
@@ -85,19 +85,19 @@ export const skillsData = [
     skills: [
       {
         name: 'Bash',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/1200px-Bash_Logo_Colored.svg.png',
+        logo: '/public/images/bash.png',
         level: 2,
         description: 'Scripting Linux appris en projets : configuration d’une image, installation de paquets.'
       },
       {
         name: 'Python',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
+        logo: '/public/images/python.png',
         level: 2,
         description: 'Développement de petits outils/scripts.'
       },
       {
         name: 'PowerShell',
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/PowerShell_5.0_icon.png/600px-PowerShell_5.0_icon.png',
+        logo: '/public/images/powershell.jpg',
         level: 1,
         description: 'Utilisé pour automatiser des tâches Windows dans des environnements de TP.'
       },

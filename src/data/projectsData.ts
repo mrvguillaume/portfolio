@@ -1,5 +1,21 @@
 export const projectsData = {
   enterprise: [ 
+    {
+      id: 'FOG Project',
+      title: 'FOG Project',
+      description: 'Mise en place de la solution de déplpoiement automatisé FOG Project',
+      image: '/images/zentyal.png',
+      pdfUrl: '',
+      tags: ['Gestion de parc','Support']
+    },
+    {
+      id: 'VPN',
+      title: 'OpenVPN',
+      description: 'Installation et conifguration de OpenVPN',
+      image: '/images/zentyal.png',
+      pdfUrl: '',
+      tags: ['Gestion de parc','Support']
+    },
   ],
   school: [
     {
@@ -56,7 +72,7 @@ export const projectsData = {
       description: 'Installation et configuration de Kali Linux',
       image: '/images/kali-logo.webp',
       pdfUrl: '/docs/Install_Kali.pdf',
-      tags: ['Linux', 'Cybersécurité', 'Hacking', 'Pentesting', 'OS']
+      tags: ['Linux', 'Cybersécurité', 'OS']
     },
     {
       id: 'Debian 12',
