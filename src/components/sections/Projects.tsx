@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
     ...p,
     tags: [...(p.tags || []), 'Ecole'],
   }));
-
+  const featuredProjects = projectsData.featured || [];
   const allProjects = [...enterpriseProjects, ...schoolProjects];
 
   // Priorité : Entreprise, Ecole, puis les autres en ordre alphabétique
@@ -68,6 +68,27 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects" className="py-16 flex items-center justify-center relative overflow-hidden">
+     {/* Projet principal */}
+    <div className="mb-20">
+      <div className="text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500">
+      Projet principal
+      </h2>
+    <div className="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 mx-auto mb-6"></div>
+    <p className="text-lg text-gray-300">
+      Projet majeur réalisé dans le cadre de ma formation BTS SIO.
+    </p>
+  </div>
+    <div className="flex justify-center max-w-4xl mx-auto">
+    {featuredProjects.map(project => (
+      <ProjectCard
+        key={project.id}
+        project={project}
+        className="project-card"
+      />
+    ))}
+     </div>
+  </div>
       {/* Éléments flottants décoratifs */}
       <div className="floating-elements"></div>
 

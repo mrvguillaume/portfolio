@@ -1,11 +1,21 @@
 export const projectsData = {
+   featured: [
+    {
+      id: 'Environnement cyber',
+      title: 'Environnement cyber',
+      description: 'Conception et administration d’un environnement dédié au pentesting et à la cybersécurité',
+      image: '/images/reseau.png',
+      pdfUrl: '/docs/Projet.pdf',
+      tags: ['Projet majeur']
+    }
+  ],
   enterprise: [ 
     {
       id: 'FOG Project',
       title: 'FOG Project',
       description: 'Mise en place de la solution de déplpoiement automatisé FOG Project',
       image: '/images/fog.png',
-      pdfUrl: '',
+      pdfUrl: '/docs/FOGProject.pdf',
       tags: ['Gestion de parc','Support']
     },
     {
@@ -83,19 +93,19 @@ export const projectsData = {
       tags: ['Linux', 'OS', 'Serveur', 'Administration système']
     },
     {
-      id: 'Ticketing',
+      id: 'GLPI CLIENT',
       title: 'GLPI CLIENT',
       description: 'Installation et configuration GLPI client',
       image: '/images/logo-glpi.webp',
-      pdfUrl: '',
+      pdfUrl: '/docs/GLPI client.pdf',
       tags: ['Support', 'Inventaire']
     },
      {
-      id: 'Ticketing',
+      id: 'GLPI SERVER',
       title: 'GLPI SERVER',
       description: 'Installation et configuration GLPI SERVER',
       image: '/images/logo-glpi.webp',
-      pdfUrl: '',
+      pdfUrl: '/docs/GLPI.pdf',
       tags: ['Support', 'Inventaire']
     },
     {
@@ -103,16 +113,8 @@ export const projectsData = {
       title: 'Synology NAS',
       description: 'Installation et configuration de Synology NAS',
       image: '/images/synology.png',
-      pdfUrl: '',
+      pdfUrl: '/docs/nas.pdf',
       tags: ['Inventaire']
-    },
-    {
-      id: 'Environnement Cyber',
-      title: 'Environnement cyber',
-      description: 'Conception et administration d’un environnement dédié au pentesting et à la cybersécurité',
-      image: '/images/reseau.png',
-      pdfUrl: '',
-      tags: ['Projet majeur']
     },
   ]
 };
