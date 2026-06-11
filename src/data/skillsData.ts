@@ -7,19 +7,19 @@ export const skillsData = [
     skills: [
       {
         name: 'Windows Server',
-        logo: '/public/images/wserver.jpg',
+        logo: '/images/wserver.jpg',
         level: 2,
         description: 'Compétence acquise en BTS SIO SISR via des TP et projets.'
       },
       {
         name: 'Windows 11',
-        logo: '/public/images/windows.png',
+        logo: '/images/windows.png',
         level: 2,
         description: 'Expérience personnelle et en environnement de test. Installation, configuration système, gestion des comptes utilisateurs et dépannage.'
       },
       {
         name: 'Linux',
-        logo: '/public/images/linux.jpg',
+        logo: '/images/linux.jpg',
         level: 2,
         description: 'Dans le cadre du projet salle cyber BTS : installation/configuration sur Debian et Ubuntu. Expérience sur des environnements virtualisés.'
       },
@@ -43,7 +43,7 @@ export const skillsData = [
       },
             {
         name: 'Configuration BIOS',
-        logo: '/public/images/bios.jpg',
+        logo: '/images/bios.jpg',
         level: 2,
         description: 'Nécessité de configuration pour autoriser le Wake on LAN et le déploiement avec FOG Project.'
       },

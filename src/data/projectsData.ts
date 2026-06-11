@@ -12,7 +12,7 @@ export const projectsData = {
       id: 'VPN',
       title: 'OpenVPN',
       description: 'Installation et conifguration de OpenVPN',
-      image: '/images/zentyal.png',
+      image: '/images/openvpn.jpg',
       pdfUrl: '',
       tags: ['Gestion de parc','Support']
     },
