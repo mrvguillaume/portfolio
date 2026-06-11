@@ -4,7 +4,7 @@ export const projectsData = {
       id: 'FOG Project',
       title: 'FOG Project',
       description: 'Mise en place de la solution de déplpoiement automatisé FOG Project',
-      image: '/images/zentyal.png',
+      image: '/images/fog.png',
       pdfUrl: '',
       tags: ['Gestion de parc','Support']
     },
